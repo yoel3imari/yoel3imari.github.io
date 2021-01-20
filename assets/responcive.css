@@ -1,0 +1,99 @@
+
+@media all and (max-width: 900px){
+
+    body{
+        padding: 5px;
+    }
+
+    .barre{
+        margin-right: 5px;
+    }
+
+    .dark_shadow{
+        text-shadow: -2px 2px #000000;
+    }
+    
+    .red_shadow{
+        text-shadow: -2px 2px var(--red);
+    }
+
+    .headline{
+        padding: 0 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .whoami{
+        height: auto;
+    }
+
+    .logo{
+        margin: 25px 0 12px 0;
+    }
+
+    .logo img{
+        height: 150px;
+    }
+
+    .bigtitle{
+        font-size: 18px;
+    }
+
+    .social_media .item{
+        margin: 0 12px;
+        font-size: 24px;
+    }
+
+    .skills{
+        font-size: 18px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ido, .idont{
+        font-size: 18px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .idont{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ido li, .idont li, .projects li{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    
+    .skills hr, .projects hr{
+        width: 50%;
+    }
+
+    .projects h1, #experiences h1, footer h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #experiences{
+        font-size: 18px;
+    }
+
+    .container{
+        padding: 25px 0;
+        align-items: center;
+    }
+
+    .container h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .educ li{
+        width: 100%;
+    }
+
+    footer button{
+        width: 75%;
+    }
+}
